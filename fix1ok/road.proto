@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package databuf;
+
+message pesanSatu {
+  string judul = 1;
+  int32 integer =2 ;
+  float floater=3;
+  double dubler=4;
+}
